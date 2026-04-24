@@ -1,0 +1,93 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(25, 73, 57);
+    scroll-behavior: smooth;
+}
+header{
+    background-color: rgb(75, 171, 115);
+    color: rgb(10, 4, 1);
+    text-align: center;
+    padding: 10px;
+ height: 100px;
+ width: 100%;
+ border: 5px solid black;
+ border-radius: 25%;
+ padding-top: 0%;
+}
+
+
+select{
+    border-radius: 15px;
+    padding: 10px;
+    font-weight: bold;
+}
+
+.butt{
+    margin-left: 80px;
+}
+
+header{
+    padding-top: 20px;
+}
+
+
+main{
+    color: rgb(255, 255, 255);
+    text-align: left;
+    padding-left: 50px;
+}
+
+h3{
+    color: rgb(67, 255, 158);
+    /* padding-bottom: 20px; */
+    
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    unicode-bidi: isolate;
+
+}
+footer{
+    width:100%;
+    background: rgb(15, 35, 27);
+    color: white;
+    text-align: center;
+    padding: 25px;
+    
+}
+textarea{
+    height: 50px;
+    width: 250px;
+    border-radius: 15px;
+    text-align: center;
+}
+
+input{
+    border-radius: 15px;
+    padding: 5px;
+    text-align: center;
+    margin-bottom: 5px;
+    transition: 0.3s;
+}
+
+
+input:hover{
+    background-color: rgb(40, 46, 46);
+    font-size: 15px;
+    color: rgb(252, 252, 252);
+    transform: scale(0.9);
+    box-shadow: 0 10px 30px rgba(56,189,248,0.3);
+}
+input:active{
+    background-color:rgb(111, 224, 255);
+}
+
+
