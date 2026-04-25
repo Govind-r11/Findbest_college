@@ -12,11 +12,11 @@ header{
     color: rgb(10, 4, 1);
     text-align: center;
     padding: 10px;
- height: 100px;
- width: 100%;
- border: 5px solid black;
- border-radius: 25%;
- padding-top: 0%;
+    height: 100px;
+    width: 100%;
+    border: 5px solid black;
+    border-radius: 25%;
+    padding-top: 0%;
 }
 
 
@@ -24,10 +24,6 @@ select{
     border-radius: 15px;
     padding: 10px;
     font-weight: bold;
-}
-
-.butt{
-    margin-left: 80px;
 }
 
 header{
@@ -43,8 +39,6 @@ main{
 
 h3{
     color: rgb(67, 255, 158);
-    /* padding-bottom: 20px; */
-    
     display: block;
     font-size: 1.5em;
     margin-block-start: 0.83em;
@@ -70,12 +64,35 @@ textarea{
     text-align: center;
 }
 
+h5{
+    color: black;
+    margin-left: 60px;
+    padding-bottom: 15px;
+    text-transform:uppercase;
+}
+
+.myclass input{
+    width: 300px;   
+    height: 40px; 
+    margin: 5px;
+}
+
 input{
     border-radius: 15px;
     padding: 5px;
     text-align: center;
     margin-bottom: 5px;
     transition: 0.3s;
+}
+
+input[type="submit"]{
+    width: 120px;   
+    height: 30px;  
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    background-color:rgb(70, 102, 179) ;
+    margin-left: 60px;
 }
 
 
@@ -86,6 +103,7 @@ input:hover{
     transform: scale(0.9);
     box-shadow: 0 10px 30px rgba(56,189,248,0.3);
 }
+
 input:active{
     background-color:rgb(111, 224, 255);
 }
